@@ -82,5 +82,5 @@ src/
 - Dark mode toggle 🌙
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 Nandita Mahapatra

@@ -1,0 +1,140 @@
+.userCommentBox {
+    border: 0.05rem solid white;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.userCommentBoxDynamic {
+    margin-top: 1rem;
+    background-color: white;
+    min-height: 15.5rem;
+    max-height: 13rem;
+    width: 16.5rem;
+    border-radius: 0.5rem;
+    /* border: 0.05rem solid black; */
+}
+
+.sendButton {
+    padding: 0rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: hsl(238, 40%, 52%);
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+    height: 2rem;
+    justify-self: flex-end;
+}
+
+.userCommentInput {
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    height: 7rem;
+    border: 0.05rem solid hsl(223, 19%, 93%);
+    /* 38rem */
+    min-width: 17rem;
+    margin-top: -0.5rem;
+}
+
+.userCommentInputDynamic {
+    height: 8rem;
+    min-width: 10rem;
+}
+
+@media (min-width : 375px) {
+
+    .userCommentBox {
+        padding: 0.5rem;
+        gap: 0.5rem;
+
+    }
+
+    .userCommentBoxDynamic {
+        min-height: 14.5rem;
+        width: 18.5rem;
+    }
+
+    .userCommentInputDynamic {
+        min-width: 18rem;
+    }
+
+    .userCommentInput {
+        min-width: 18rem;
+    }
+
+}
+
+@media (min-width : 481px) {
+    .userCommentInput {
+        min-width: 27rem;
+    }
+
+    .userCommentBox {
+        padding: 0.5rem;
+        gap: 0.5rem;
+        
+        padding-top: 1rem;
+    }
+
+    .userCommentBoxDynamic {
+        width: 24.5rem;
+        min-height: 14rem;
+    }
+
+    .userCommentInputDynamic {
+        min-width: 21rem;
+        
+    }
+
+    .sendButton {
+        padding: 0.5rem;
+        width: 4rem;
+        border-radius: 0.4rem;
+        font-size: 0.9rem;
+        height: 2rem;
+    }
+}
+
+@media (min-width : 768px) {
+    .userCommentInput {
+        min-width: 33rem;
+    }
+
+    .userCommentBox {
+        padding: 1rem;
+        gap: 1rem;
+        flex-wrap: nowrap;
+        padding-top: 1.5rem;
+    }
+
+    .userCommentBoxDynamic {
+        width: 37rem;
+        min-height: 7rem;
+    }
+
+    .userCommentInputDynamic {
+        min-width: 27rem;
+    }
+}
+
+@media (min-width : 1024px) {
+    
+    .userCommentBox {
+        padding: 1rem;
+        gap: 1rem;
+       
+
+    }
+
+    .userCommentInput {
+        min-width: 35rem;
+    }
+
+    .userCommentInputDynamic {
+        min-width: 26rem;
+    }
+}

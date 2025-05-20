@@ -1,0 +1,25 @@
+.userInfoDiv {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    flex-wrap: wrap;
+    /* margin-bottom: 0.5rem; */
+    /* border: 0.05rem solid black; */
+}
+
+.userInfoDivStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+@media (min-width : 481px){
+    .userInfoDivStyle {
+    gap: 1rem;
+}
+.userInfoDiv{
+    flex-wrap: nowrap;
+}
+}

@@ -1,8 +1,8 @@
 export default {
   "currentUser": {
     "image": { 
-      "png": "/public/assets/images/avatars/image-juliusomo.png",
-      "webp": "/public/assets/images/avatars/image-juliusomo.webp"
+      "png": "/assets/images/avatars/image-juliusomo.png",
+      "webp": "/assets/images/avatars/image-juliusomo.webp"
     },
     "username": "juliusomo"
   },
@@ -14,8 +14,8 @@ export default {
       "score": 12,
       "user": {
         "image": { 
-          "png": "/public/assets/images/avatars/image-amyrobson.png",
-          "webp": "/public/assets/images/avatars/image-amyrobson.webp"
+          "png": "/assets/images/avatars/image-amyrobson.png",
+          "webp": "/assets/images/avatars/image-amyrobson.webp"
         },
         "username": "amyrobson"
       },
@@ -28,8 +28,8 @@ export default {
       "score": 5,
       "user": {
         "image": { 
-          "png": "/public/assets/images/avatars/image-maxblagun.png",
-          "webp": "/public/assets/images/avatars/image-maxblagun.webp"
+          "png": "/assets/images/avatars/image-maxblagun.png",
+          "webp": "/assets/images/avatars/image-maxblagun.webp"
         },
         "username": "maxblagun"
       },
@@ -42,8 +42,8 @@ export default {
           "replyingTo": "maxblagun",
           "user": {
             "image": { 
-              "png": "/public/assets/images/avatars/image-ramsesmiron.png",
-              "webp": "/public/assets/images/avatars/image-ramsesmiron.webp"
+              "png": "/assets/images/avatars/image-ramsesmiron.png",
+              "webp": "/assets/images/avatars/image-ramsesmiron.webp"
             },
             "username": "ramsesmiron"
           }
@@ -56,8 +56,8 @@ export default {
           "replyingTo": "ramsesmiron",
           "user": {
             "image": { 
-              "png": "/public/assets/images/avatars/image-juliusomo.png",
-              "webp": "/public/assets/images/avatars/image-juliusomo.webp"
+              "png": "/assets/images/avatars/image-juliusomo.png",
+              "webp": "/assets/images/avatars/image-juliusomo.webp"
             },
             "username": "juliusomo"
           }

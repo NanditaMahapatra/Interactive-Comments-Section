@@ -27,7 +27,7 @@ const UserInfoComp = (props) => {
       >
         <img
           className="commentAvatars"
-          src={user.image && user.image.png}
+          src={user.image && user.image.webp}
         ></img>
         <div style={{ fontWeight: "bold", color: "hsl(212, 24%, 26%)" }}>
           {user.username}
